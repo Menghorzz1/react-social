@@ -46,6 +46,9 @@ export default function Product() {
             className="inline-flex h-[40px] my-5 items-center  text-white rounded-md  bg-emerald-500 transition-colors duration-300 hover:bg-emerald-600 focus:text-emerald-600 focus:outline-none focus-visible:outline-none p-2"
             to={`/edit/${row.id}`}
           >
+
+
+
             <span>Edit</span>
           </NavLink>
           <NavLink
@@ -62,7 +65,8 @@ export default function Product() {
     },
   ];
 
-  console.log("data from RTK Query", data);
+  console.log("Data from RTK Query", data);
+
 
   return (
     <main className="max-w-screen-xl mx-auto">
