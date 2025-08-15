@@ -22,7 +22,7 @@ export default function NavbarBasic() {
               className="flex font-bold items-center gap-2 whitespace-nowrap py-3 text-lg focus:outline-none lg:flex-1"
               to={"/"}
             >
-              <span className="border-l-5 border-l-teal-600">ODINN</span>
+              <span className="border-l-5 border-l-teal-600">BUY EY ORT</span>
             </NavLink>
             {/*      <!-- Mobile trigger --> */}
             <button
